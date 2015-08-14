@@ -1,0 +1,15 @@
+dn: dc=example,dc=com
+dc: example
+o: example.com
+objectClass: dcObject
+objectClass: organization
+
+dn: ou=Users,dc=example,dc=com
+ou: Users
+objectClass: organizationalUnit
+
+dn: cn=Manager,dc=example,dc=com
+objectClass: organizationalRole
+objectClass: simpleSecurityObject
+cn: Manager
+userPassword: {SSHA}2EA5SQt71rvILkMvTlr9PgYlIFtmqgtT

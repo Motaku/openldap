@@ -1,0 +1,29 @@
+dn: uid=testuser01,ou=Users,dc=example,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uid: testuser01
+cn: ゆーざー01
+sn: テスト
+uidNumber: 10001
+gidNumber: 10001
+homeDirectory: /home/testuser01
+
+dn: uid=testuser02,ou=Users,dc=example,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uid: testuser02
+cn: ゆーざー02
+sn: テスト
+uidNumber: 10002
+gidNumber: 10002
+homeDirectory: /home/testuser02
+
+dn: uid=testuser03,ou=Users,dc=example,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uid: testuser03
+cn: ゆーざー03
+sn: テスト
+uidNumber: 10003
+gidNumber: 10003
+homeDirectory: /home/testuser03
